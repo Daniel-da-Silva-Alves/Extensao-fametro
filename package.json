@@ -1,0 +1,9 @@
+{
+  "name": "extensao-fametro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page estática do projeto de extensão de inclusão digital na EJA",
+  "scripts": {
+    "build": "echo \"Site estático, sem build\""
+  }
+}
