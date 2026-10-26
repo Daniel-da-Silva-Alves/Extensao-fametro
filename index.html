@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inclusão Digital na EJA | Projeto de Extensão Fametro</title>
+  <meta name="description" content="Inclusão Digital, Governo Digital e Letramento na EJA: links oficiais, dicas de segurança e marcos legais para exercer a cidadania digital com autonomia." />
+  <meta name="theme-color" content="#0b1a33" />
+  <link rel="icon" href="assets/logo-fametro.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Barra de acessibilidade -->
+  <div class="a11y-bar" role="region" aria-label="Recursos de acessibilidade">
+    <div class="container a11y-bar__inner">
+      <p class="a11y-bar__title">
+        <svg class="icon icon--yellow" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><circle cx="12" cy="6.5" r="1.8" fill="#0b1a33"/><path d="M7 9.5l5 1 5-1M12 10.5v4m0 0l-2.5 4.5M12 14.5l2.5 4.5" stroke="#0b1a33" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Recursos de Acessibilidade:</span>
+      </p>
+      <div class="a11y-bar__controls">
+        <div class="font-group" role="group" aria-label="Tamanho do texto">
+          <span class="font-group__label">Tamanho do texto:</span>
+          <button class="kbd-btn" type="button" data-font="down" aria-label="Diminuir texto">A-</button>
+          <button class="kbd-btn" type="button" data-font="reset" aria-label="Texto padrão">A</button>
+          <button class="kbd-btn" type="button" data-font="up" aria-label="Aumentar texto">A+</button>
+        </div>
+        <button class="contrast-btn" type="button" id="contrast-toggle" aria-pressed="false">
+          <svg class="icon icon--yellow" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+          Alto Contraste
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <span class="pill">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z" fill="currentColor"/><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            Projeto de Extensão Universitária
+          </span>
+          <h1 id="hero-title">Inclusão Digital, Governo Digital e Letramento na <span class="hl">EJA</span></h1>
+          <p class="hero__lead">O Acesso à Tecnologia como Instrumento de Cidadania, Emancipação e Autonomia para a Educação de Jovens e Adultos.</p>
+          <div class="hero__actions">
+            <a class="btn btn--white" href="#links">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg>
+              Repositório de Links
+            </a>
+            <a class="btn btn--outline-light" href="#seguranca">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9.5-8 11-4.5-1.5-8-6-8-11V5z" fill="currentColor"/></svg>
+              Dicas de Segurança
+            </a>
+            <a class="btn btn--blue" href="#marcos">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M5 21h14M4 7h16M7 7l-3 7a3 3 0 0 0 6 0zM17 7l-3 7a3 3 0 0 0 6 0z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+              Marcos Legais
+            </a>
+          </div>
+        </div>
+
+        <aside class="glass-card" aria-labelledby="emancipa-title">
+          <div class="glass-card__head">
+            <div class="icon-tile icon-tile--green" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 11.5l-3-3a2 2 0 0 1 3-2.6 2 2 0 0 1 3 2.6z" fill="currentColor"/><path d="M3 15h3l4 2h4a1.5 1.5 0 0 0 0-3h-3M6 15v5h2l6 1 7-4a1.5 1.5 0 0 0-1.5-2.5L15 17" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <h2 id="emancipa-title">Inclusão que Emancipa</h2>
+              <p>Mais que usar o celular, exercer direitos.</p>
+            </div>
+          </div>
+          <ul class="check-list check-list--light">
+            <li>Acesso simplificado a serviços do <strong>Gov.br</strong>, <strong>Meu INSS</strong> e <strong>CTPS Digital</strong>.</li>
+            <li>Prevenção prática contra <strong>golpes, links falsos e fraudes</strong>.</li>
+            <li>Construção da <strong>autonomia digital</strong> sem dependência de terceiros.</li>
+          </ul>
+          <blockquote>"A aprendizagem deve partir de situações reais do cotidiano do educando."</blockquote>
+        </aside>
+      </div>
+      <div class="faixa" aria-hidden="true"></div>
+    </section>
+
+    <!-- DIAGNÓSTICO -->
+    <section class="section" aria-labelledby="diag-title">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow eyebrow--blue">Diagnóstico Local</span>
+          <h2 id="diag-title">O Desafio da Exclusão Digital Funcional</h2>
+          <p>A posse de um smartphone e o acesso a redes sociais não garantem o exercício pleno da cidadania digital. Entenda a realidade enfrentada pelos estudantes da EJA.</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="card card--soft">
+            <div class="icon-tile icon-tile--yellow" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Exclusão Funcional</h3>
+            <p>Ter celular não garante autonomia. Muitas pessoas encontram grandes barreiras na hora de preencher formulários complexos, criar senhas seguras, realizar autenticações ou recuperar contas bloqueadas.</p>
+          </article>
+          <article class="card card--soft">
+            <div class="icon-tile icon-tile--blue" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 9l9-5 9 5zM5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Migração Obrigatória para o Digital</h3>
+            <p>O atendimento público presencial foi drasticamente reduzido. Acesso a direitos básicos como aposentadoria, seguro-desemprego e abono salarial agora exige domínio de plataformas como o <strong>Portal Gov.br</strong>.</p>
+          </article>
+          <article class="card card--soft">
+            <div class="icon-tile icon-tile--red" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5" fill="currentColor"/><path d="M2.5 20c0-3.5 3-6 6.5-6 1.2 0 2.3.3 3.2.8" fill="currentColor"/><path d="M17.5 12l4 1.5v3c0 2.5-1.8 4.3-4 5-2.2-.7-4-2.5-4-5v-3z" fill="currentColor"/></svg>
+            </div>
+            <h3>Insegurança e Dependência</h3>
+            <p>O receio de cair em golpes, perder o WhatsApp ou abrir links falsos gera travamento. Sem o letramento adequado, o cidadão depende de terceiros, exposto ao risco de vazamento de dados sensíveis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EIXOS -->
+    <section class="section section--muted" aria-labelledby="eixos-title">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow eyebrow--green">Fundamentação Pedagógica</span>
+          <h2 id="eixos-title">Três Eixos de Intervenção</h2>
+          <p>Nossa metodologia combina teoria crítica, usabilidade pública e prática contextualizada.</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <span class="tag tag--blue">EIXO 1</span>
+            <h3>Governo Digital (Gov.br)</h3>
+            <p>Capacitação prática para navegação eficiente nos portais públicos federais, estaduais e municipais.</p>
+            <ul class="check-list">
+              <li>Compreensão dos níveis Bronze, Prata e Ouro</li>
+              <li>Acesso ao Meu INSS e Extrato do CNIS</li>
+              <li>Uso da Carteira de Trabalho Digital (CTPS)</li>
+              <li>Validação de documentos digitais</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="tag tag--yellow">EIXO 2</span>
+            <h3>Segurança &amp; LGPD</h3>
+            <p>Proteção da privacidade, defesa de direitos digitais e autodefesa contra fraudes e engenharia social.</p>
+            <ul class="check-list">
+              <li>Identificação de mensagens de Phishing</li>
+              <li>Ativação de Autenticação em 2 Etapas (2FA)</li>
+              <li>Gestão de senhas fortes e seguras</li>
+              <li>Conscientização sobre a LGPD</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="tag tag--green">EIXO 3</span>
+            <h3>Inclusão Emancipatória</h3>
+            <p>Superação da mera aprendizagem mecânica para o desenvolvimento do pensamento crítico e letramento midiático.</p>
+            <ul class="check-list">
+              <li>Análise crítica de conteúdos digitais</li>
+              <li>Combate a Notícias Falsas (Fake News)</li>
+              <li>Participação social e cidadania ativa</li>
+              <li>Acessibilidade e linguagem simples</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- REPOSITÓRIO DE LINKS -->
+    <section id="links" class="section" aria-labelledby="links-title">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow eyebrow--blue">Repositório de Links</span>
+          <h2 id="links-title">Serviços Oficiais em um Só Lugar</h2>
+          <p>Acesse sempre pelos endereços oficiais. Todo site do Governo Federal termina em <strong>.gov.br</strong>.</p>
+        </header>
+
+        <div class="grid grid--4">
+          <a class="card link-card" href="https://www.gov.br/" target="_blank" rel="noopener">
+            <div class="icon-tile icon-tile--blue" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M3 12h18M12 3c2.5 2.5 3.5 5.5 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-5.5-3.5-9s1-6.5 3.5-9z" stroke="currentColor" stroke-width="2" fill="none"/></svg></div>
+            <h3>Portal Gov.br</h3>
+            <p>Conta única para acessar milhares de serviços públicos digitais.</p>
+            <span class="link-card__cta">Acessar <span class="sr-only">Portal Gov.br (abre em nova aba)</span> →</span>
+          </a>
+          <a class="card link-card" href="https://meu.inss.gov.br/" target="_blank" rel="noopener">
+            <div class="icon-tile icon-tile--green" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><path d="M9 12h7M9 16h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Meu INSS</h3>
+            <p>Extrato do CNIS, benefícios, aposentadoria e agendamentos.</p>
+            <span class="link-card__cta">Acessar <span class="sr-only">Meu INSS (abre em nova aba)</span> →</span>
+          </a>
+          <a class="card link-card" href="https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/carteira-de-trabalho-digital" target="_blank" rel="noopener">
+            <div class="icon-tile icon-tile--yellow" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><path d="M9 7V5h6v2M3 12h18" stroke="currentColor" stroke-width="2" fill="none"/></svg></div>
+            <h3>Carteira de Trabalho Digital</h3>
+            <p>Contratos, vínculos, seguro-desemprego e abono salarial.</p>
+            <span class="link-card__cta">Acessar <span class="sr-only">Carteira de Trabalho Digital (abre em nova aba)</span> →</span>
+          </a>
+          <a class="card link-card" href="https://meususdigital.saude.gov.br/" target="_blank" rel="noopener">
+            <div class="icon-tile icon-tile--red" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg></div>
+            <h3>Meu SUS Digital</h3>
+            <p>Vacinas, exames, consultas e carteira de vacinação.</p>
+            <span class="link-card__cta">Acessar <span class="sr-only">Meu SUS Digital (abre em nova aba)</span> →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUIA RÁPIDO DE SEGURANÇA -->
+    <section id="seguranca" class="section section--tight" aria-labelledby="guia-title">
+      <div class="container">
+        <div class="guide">
+          <div class="guide__intro">
+            <span class="pill pill--amber">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9V16h7v-2.1A6 6 0 0 0 12 3z" fill="currentColor"/></svg>
+              Aprendizado Prático
+            </span>
+            <h2 id="guia-title">Guia Rápido de Segurança e Termos Digitais</h2>
+            <p>Clique nas abas ao lado para aprender em poucas linhas conceitos essenciais para proteger seu celular e acessar os serviços públicos com tranquilidade.</p>
+          </div>
+
+          <div class="guide__panel tabs" data-tabs>
+            <div class="tabs__list" role="tablist" aria-label="Temas de segurança">
+              <button class="tabs__trigger" role="tab" id="t-phishing" aria-controls="p-phishing" aria-selected="true">Golpes (Phishing)</button>
+              <button class="tabs__trigger" role="tab" id="t-senhas" aria-controls="p-senhas" aria-selected="false" tabindex="-1">Senhas Fortes</button>
+              <button class="tabs__trigger" role="tab" id="t-2fa" aria-controls="p-2fa" aria-selected="false" tabindex="-1">Verificação 2 Etapas</button>
+              <button class="tabs__trigger" role="tab" id="t-niveis" aria-controls="p-niveis" aria-selected="false" tabindex="-1">Níveis Gov.br</button>
+            </div>
+
+            <div class="tabs__panel" role="tabpanel" id="p-phishing" aria-labelledby="t-phishing" tabindex="0">
+              <h3 class="panel-title panel-title--red">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L1 21h22z" fill="currentColor"/><path d="M12 9v5M12 17.5v.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg>
+                O que é Phishing?
+              </h3>
+              <p>É uma mensagem falsa (via SMS, WhatsApp ou e-mail) tentando se passar por um banco ou pelo Governo. O objetivo é roubar sua senha ou número de CPF.</p>
+              <div class="callout callout--red"><strong>Dica de Ouro:</strong> O Governo e os bancos <strong>nunca</strong> enviam links pedindo para você digitar sua senha por WhatsApp ou SMS.</div>
+            </div>
+
+            <div class="tabs__panel" role="tabpanel" id="p-senhas" aria-labelledby="t-senhas" tabindex="0" hidden>
+              <h3 class="panel-title panel-title--blue">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="7.5" cy="15.5" r="4.5" stroke="currentColor" stroke-width="2.4" fill="none"/><path d="M10.7 12.3L20 3M16 7l3 3M18 5l2 2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+                Como criar uma Senha Segura?
+              </h3>
+              <p>Evite usar datas de nascimento, sequências simples (123456) ou o próprio nome. Misture palavras simples, números e símbolos.</p>
+              <div class="callout callout--blue"><strong>Exemplo recomendado:</strong> Em vez de "maria123", use algo como "Café#ComLeite2026". Fácil de lembrar e difícil de adivinhar.</div>
+            </div>
+
+            <div class="tabs__panel" role="tabpanel" id="p-2fa" aria-labelledby="t-2fa" tabindex="0" hidden>
+              <h3 class="panel-title panel-title--green">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2" fill="currentColor"/><path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="2.4" fill="none"/></svg>
+                O que é Autenticação em 2 Etapas (2FA)?
+              </h3>
+              <p>É uma camada extra de proteção no seu celular ou WhatsApp. Além da sua senha, o aplicativo exige um código de verificação enviado na hora.</p>
+              <div class="callout callout--green"><strong>Como ativar no WhatsApp:</strong> Vá em Configurações &gt; Conta &gt; Confirmação em duas etapas &gt; Ativar.</div>
+            </div>
+
+            <div class="tabs__panel" role="tabpanel" id="p-niveis" aria-labelledby="t-niveis" tabindex="0" hidden>
+              <h3 class="panel-title panel-title--amber">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z" fill="currentColor"/></svg>
+                Quais são os Níveis da Conta Gov.br?
+              </h3>
+              <p><strong>Bronze:</strong> cadastro básico com CPF. <strong>Prata:</strong> validação pelo banco ou pela CNH. <strong>Ouro:</strong> reconhecimento facial pelo app Gov.br ou certificado digital.</p>
+              <div class="callout callout--amber"><strong>Por que subir de nível?</strong> Serviços como Meu INSS e Carteira de Trabalho Digital exigem conta Prata ou Ouro.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARCOS LEGAIS -->
+    <section id="marcos" class="section section--muted" aria-labelledby="marcos-title">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow eyebrow--blue">Base Normativa</span>
+          <h2 id="marcos-title">Principais Marcos Legais e Regulatórios</h2>
+          <p>A cidadania digital é um direito garantido por lei.</p>
+        </header>
+
+        <ul class="grid grid--4 law-list">
+          <li class="card law"><span class="law__ref">Decreto nº 12.069/2024</span><p>Estratégia Nacional de Governo Digital 2024–2027.</p></li>
+          <li class="card law"><span class="law__ref">Lei nº 14.129/2021</span><p>Eficiência, transparência e linguagem simples no Governo Digital.</p></li>
+          <li class="card law"><span class="law__ref">Lei nº 12.965/2014</span><p>Marco Civil da Internet e uso responsável da rede.</p></li>
+          <li class="card law"><span class="law__ref">Lei nº 14.533/2023</span><p>Política Nacional de Educação Digital.</p></li>
+          <li class="card law"><span class="law__ref">Lei nº 13.709/2018</span><p>LGPD e proteção de dados pessoais.</p></li>
+          <li class="card law"><span class="law__ref">Lei nº 13.146/2015</span><p>Acessibilidade em ambientes digitais.</p></li>
+          <li class="card law"><span class="law__ref">Resolução CNE/CES nº 7/2018</span><p>Diretrizes para a extensão universitária.</p></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="faixa" aria-hidden="true"></div>
+    <div class="container footer__inner">
+      <img src="assets/logo-fametro.png" alt="Fametro — Faculdade Metropolitana de Manaus" width="110" height="110" />
+      <p class="footer__title">Inclusão Digital é Cidadania</p>
+      <p>Um grande passo na construção de uma sociedade mais justa.</p>
+      <p class="footer__note">Projeto de Extensão Universitária — Fametro. Site educativo, não é um canal oficial do governo e não coleta dados pessoais.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
